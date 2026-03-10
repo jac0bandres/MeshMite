@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "eff9cdb8-9cab-458c-8f19-263fb1744647")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 98.425 15.875)
+		(size 74.93 62.865)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4229e5d-ae29-4cb3-a301-af2fbe671461")
+		(property "Sheetname" "nrf52"
+			(at 98.425 15.1634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nrf52.kicad_sch"
+			(at 98.425 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MeshMite"
+				(path "/eff9cdb8-9cab-458c-8f19-263fb1744647"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 15.875)
+		(size 74.295 64.135)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba983ed4-75fd-4b8a-945b-5ff7d5f7abc9")
+		(property "Sheetname" "peripherals"
+			(at 17.78 15.1634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 17.78 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MeshMite"
+				(path "/eff9cdb8-9cab-458c-8f19-263fb1744647"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
